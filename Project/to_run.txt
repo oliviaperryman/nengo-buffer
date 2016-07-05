@@ -1,0 +1,11 @@
+command prompt, go to directory where you want the libraries
+1. git clone https://github.com/nengo/nengo.git
+2. cd nengo
+3. git checkout function-points
+4. python setup.py develop
+
+go back to directory where you want libraries
+1. git clone https://github.com/nengo/nengo_extras.git
+2. cd nengo_extras
+3. git checkout vision
+4. python setup.py develop
