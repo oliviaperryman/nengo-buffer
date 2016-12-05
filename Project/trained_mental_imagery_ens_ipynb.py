@@ -81,4 +81,6 @@ with model:
 sim = nengo.Simulator(model)
 sim.run(5)
 
+filename = "mental_imagery_output_"  + str(n_hid) + ".p"
+cPickle.dump(sim.data[probe], open( filename , "wb" ) )
 
